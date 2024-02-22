@@ -1,8 +1,8 @@
-package herencia;
+package trabajo0;
 
 import java.util.Scanner;
 
-public class Herencia {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -11,12 +11,12 @@ public class Herencia {
 
         while (true) {
             System.out.println("\nMenu:");
-            System.out.println("1. Agregar tarea");
-            System.out.println("2. Completar tarea");
-            System.out.println("3. Listar tareas");
-            System.out.println("4. Eliminar tarea");
-            System.out.println("5. Contar tareas pendientes");
-            System.out.println("6. Salir");
+            System.out.println("1.Agregar tarea");
+            System.out.println("2.Completar tarea");
+            System.out.println("3.Listar tareas");
+            System.out.println("4.Eliminar tarea");
+            System.out.println("5.Contar tareas pendientes");
+            System.out.println("6.Salir");
             System.out.print("Selecciona una opcion: ");
 
             int opcion = scanner.nextInt();
@@ -53,4 +53,5 @@ public class Herencia {
             }
         }
     }
+
 }
